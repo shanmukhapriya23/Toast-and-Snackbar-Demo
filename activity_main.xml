@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Add to Wishlist Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnWishlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Wishlist"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_wishlist"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconSize="18dp" />
+
+    <!-- Add to Cart Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add to Cart"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_shopping_cart"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconSize="18dp" />
+
+    <!-- Check Notifications Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Check Notifications"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_notification"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconSize="18dp" />
+
+    <!-- Delete Item Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDeleteItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Delete Item"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_delete"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconSize="18dp" />
+
+</LinearLayout>
